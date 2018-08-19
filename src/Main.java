@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] table = {3, 8, 9, 7, 6};
+        int[] table = {3, 8, 9, 7, 3};
 
         int[] tab2 = Solution.arraySolution(table, 3);
 

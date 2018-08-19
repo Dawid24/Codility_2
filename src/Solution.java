@@ -4,6 +4,9 @@ import java.util.LinkedList;
 public class Solution {
 
     public static int[] arraySolution(int[] A, int K) {
+        if (A.length == 1) {
+            return A;
+        }
         LinkedList<Integer> bufor = new LinkedList<Integer>();
         for (int i = 0; i < K; i++) {
             for (int j = 0; j < A.length; j++) {
